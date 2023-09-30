@@ -2,5 +2,12 @@
     "cSpell.words": [
         "noopener",
         "noreferrer"
-    ]
+    ],
+    "editor.tabSize": 1,
+    "editor.accessibilityPageSize": 12,
+    "python.testing.pytestArgs": [
+        "BackEnd"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }
