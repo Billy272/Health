@@ -39,9 +39,20 @@ function DataProcessing() {
         <th>Age</th>
        </tr>
       </thead>
+      <tbody>
+       {data.map((item) => (
+        <tr key={item.id}>
+         <td>{item.id}</td>
+         <td>{item.name}</td>
+         <td>{item.value}</td>
+        </tr>
+       ))}
+      </tbody>
      </table>
     </div>
    )}
   </div>
  )
 }
+
+export default DataProcessing;
