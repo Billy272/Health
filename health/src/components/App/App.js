@@ -1,11 +1,10 @@
-
 import './App.css';
-import DataProcessing from '../DataProcessing/DataProcessing';
+import Header from '../Header/header';
 
 function App() {
   return (
     <div className="App">
-      <DataProcessing />
+     <Header />
     </div>
   );
 }
