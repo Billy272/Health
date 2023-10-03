@@ -3,7 +3,7 @@ import axios from 'axios';
 
 function DataProcessing() {
  const [data, setData] = useState([]);
- const
+ const [loading, setLoading] = useState(true);
 
  useEffect(() => {
   fetchData(); 
