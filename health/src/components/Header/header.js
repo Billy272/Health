@@ -3,9 +3,9 @@ import './header.css';
 
 function Header() {
  return (
-  <head>
+  <header>
    <div className='header'>
-    <h1>COVID-19 Student Data Analsis.</h1>
+    <h1>Student Data Analsis.</h1>
     <nav>
      <ul>
       <li>Analyzed Data</li>
@@ -16,7 +16,7 @@ function Header() {
      </ul>
     </nav>
    </div>
-  </head>
+  </header>
  );
 }
 
