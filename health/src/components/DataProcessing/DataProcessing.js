@@ -11,7 +11,7 @@ function DataProcessing() {
 
  const fetchData = async () => {
   try {
-   const response = await axios.get('../data/WHO-COVID-19-global-data.csv');
+   const response = await axios.get(',,/data/sample_data.csv');
    
   if(response.data) {
    setData(response.data);
