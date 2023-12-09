@@ -5,7 +5,7 @@ function Header() {
  return (
   <header>
    <div className='header'>
-    <h1>Student Data Analsis.</h1>
+    <h1>Student Data Analysis.</h1>
     <nav>
      <ul>
       <li>Analyzed Data</li>
